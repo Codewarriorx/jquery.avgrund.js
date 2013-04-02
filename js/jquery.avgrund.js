@@ -121,6 +121,7 @@
 			destroy: function(){ // public function to deactivate modal
 				$('body').unbind();
 				$('body').removeClass('avgrund-active');
+				$('.avgrund-overlay').add('.avgrund-popin').remove();
 			}
 		}
 		// if a method as the given argument exists
